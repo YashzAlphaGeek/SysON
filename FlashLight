@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sysml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sysml="http://www.eclipse.org/syson/sysml" declaredName="Package 1" elementId="e30b2301-07c5-4ea6-8516-3571857edd64">
+  <ownedRelationship xmi:type="sysml:OwningMembership" elementId="fa1419c6-c999-41a6-92d1-5b785b44c44d">
+    <ownedRelatedElement xmi:type="sysml:PartDefinition" declaredName="FlashLight" elementId="94a3b072-ba27-4707-90ae-b45763f7cd81">
+      <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="7373f51a-033a-4341-90a2-9873896fa4aa">
+        <ownedRelatedElement xmi:type="sysml:PartUsage" declaredName="Light" elementId="4465fbc2-12ff-4dcc-8a46-ff0f30d31787">
+          <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="fc5cc487-9514-4995-9137-51fa109308c9">
+            <ownedRelatedElement xmi:type="sysml:PortUsage" declaredName="light" elementId="94a1c11c-0644-47cf-add0-8e4583484cc1"/>
+          </ownedRelationship>
+        </ownedRelatedElement>
+      </ownedRelationship>
+      <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="4afa6190-c197-4e99-9112-19331c8454de">
+        <ownedRelatedElement xmi:type="sysml:PartUsage" declaredName="Timer" elementId="ee24cae4-a0ff-4dd6-98fc-3811b9a42fac">
+          <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="42c10880-26f7-4800-b402-a10fe85f41d4">
+            <ownedRelatedElement xmi:type="sysml:PortUsage" declaredName="light" elementId="6b18b0b0-88d6-410a-bf1e-689b7c740d51"/>
+          </ownedRelationship>
+          <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="664dbe79-a371-4e86-807f-a20f86c74546">
+            <ownedRelatedElement xmi:type="sysml:PortUsage" declaredName="control" elementId="37a963b2-4056-4bcf-8eee-ba69923ade68"/>
+          </ownedRelationship>
+        </ownedRelatedElement>
+      </ownedRelationship>
+      <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="e63824f7-0acd-4b2b-9935-a2b1ef50bae0">
+        <ownedRelatedElement xmi:type="sysml:PartUsage" declaredName="Button" elementId="16c5741e-52cf-4509-8871-5d2e1a3ed9de">
+          <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="60d1e875-cf9d-46ab-8ca8-e12f967b0839">
+            <ownedRelatedElement xmi:type="sysml:PortUsage" declaredName="control" elementId="a64cc77a-e4d4-4967-ab9b-61e391e86fff"/>
+          </ownedRelationship>
+        </ownedRelatedElement>
+      </ownedRelationship>
+    </ownedRelatedElement>
+  </ownedRelationship>
+  <ownedRelationship xmi:type="sysml:OwningMembership" elementId="ca5a57ed-91b4-41b2-a367-59ee502af599">
+    <ownedRelatedElement xmi:type="sysml:PortDefinition" declaredName="PortDefinition" elementId="c0ed803e-899e-4945-a81a-b56b823fe065"/>
+  </ownedRelationship>
+  <ownedRelationship xmi:type="sysml:OwningMembership" elementId="27727eb0-b7a0-4b86-90c6-12047a1d5f4e">
+    <ownedRelatedElement xmi:type="sysml:Dependency" declaredName="dependency" elementId="fde81a11-ef36-49e7-a67b-91ba8da50fe6" client="a64cc77a-e4d4-4967-ab9b-61e391e86fff" supplier="c0ed803e-899e-4945-a81a-b56b823fe065"/>
+  </ownedRelationship>
+  <ownedRelationship xmi:type="sysml:OwningMembership" elementId="0cd0d9cc-0454-462e-a696-6565859eb6ff">
+    <ownedRelatedElement xmi:type="sysml:Dependency" declaredName="dependency" elementId="4575d972-b776-4243-b6de-148338aca843" client="37a963b2-4056-4bcf-8eee-ba69923ade68" supplier="c0ed803e-899e-4945-a81a-b56b823fe065"/>
+  </ownedRelationship>
+  <ownedRelationship xmi:type="sysml:OwningMembership" elementId="5f8b3092-a736-4c43-96cc-5a9daf7fc425">
+    <ownedRelatedElement xmi:type="sysml:Dependency" declaredName="dependency" elementId="d0f992a6-f718-4b04-905c-bae79e1e14d4" client="94a1c11c-0644-47cf-add0-8e4583484cc1" supplier="c0ed803e-899e-4945-a81a-b56b823fe065"/>
+  </ownedRelationship>
+  <ownedRelationship xmi:type="sysml:OwningMembership" elementId="3a8f5eff-371a-4bad-918c-7e3f07efceb0">
+    <ownedRelatedElement xmi:type="sysml:Dependency" declaredName="dependency" elementId="0ad51781-cb0c-4247-aa26-94eeddff4ed7" client="6b18b0b0-88d6-410a-bf1e-689b7c740d51" supplier="c0ed803e-899e-4945-a81a-b56b823fe065"/>
+  </ownedRelationship>
+</sysml:Package>

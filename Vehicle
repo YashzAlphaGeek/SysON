@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sysml="http://www.eclipse.org/syson/sysml">
+  <sysml:Package declaredName="Package 1" elementId="f459dafc-ade4-4dc1-b45e-34d2cfb2e43e">
+    <ownedRelationship xmi:type="sysml:OwningMembership" elementId="461afb8e-809c-42c3-963b-012b8f26fe96">
+      <ownedRelatedElement xmi:type="sysml:PartDefinition" declaredName="Car" elementId="f830ebab-a646-4bf6-82b9-98403cb149ab"/>
+    </ownedRelationship>
+    <ownedRelationship xmi:type="sysml:OwningMembership" elementId="86c1a8d1-56b1-4388-aba3-402b742dd0a2">
+      <ownedRelatedElement xmi:type="sysml:PartDefinition" declaredName="Bike" elementId="de25670f-c0ce-458c-b840-40335e0d1de3"/>
+    </ownedRelationship>
+    <ownedRelationship xmi:type="sysml:OwningMembership" elementId="0d35d6e6-25dc-4027-b4d5-52119d1ff2d7">
+      <ownedRelatedElement xmi:type="sysml:PartDefinition" declaredName="Train" elementId="7cdd6809-224d-4c0a-90e6-f2f0648bb54f"/>
+    </ownedRelationship>
+  </sysml:Package>
+  <sysml:PartDefinition declaredName="Vehicle" elementId="d38c9fa4-0cf1-4d97-83c3-50150928f25b">
+    <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="c80f958a-2e7c-4187-b670-fed71b488935">
+      <ownedRelatedElement xmi:type="sysml:AttributeUsage" declaredName="length" elementId="63752581-b54e-462c-9a98-c241efce8f7a"/>
+    </ownedRelationship>
+    <ownedRelationship xmi:type="sysml:FeatureMembership" elementId="7ceb47ed-3efb-41bd-aa0e-94e601ee145c">
+      <ownedRelatedElement xmi:type="sysml:AttributeUsage" declaredName="weight" elementId="aa4bc9d0-ed4d-46dc-b0ca-ed0b1c6136ab"/>
+    </ownedRelationship>
+    <ownedRelationship xmi:type="sysml:Subclassification" declaredName="specializes" elementId="2bf390d0-bbe0-4dae-91ab-24b45641fbd3" general="7cdd6809-224d-4c0a-90e6-f2f0648bb54f" specific="d38c9fa4-0cf1-4d97-83c3-50150928f25b" subclassifier="d38c9fa4-0cf1-4d97-83c3-50150928f25b" superclassifier="7cdd6809-224d-4c0a-90e6-f2f0648bb54f"/>
+    <ownedRelationship xmi:type="sysml:Subclassification" declaredName="specializes" elementId="162baccb-5602-4769-afca-db8ecbe55eac" general="de25670f-c0ce-458c-b840-40335e0d1de3" specific="d38c9fa4-0cf1-4d97-83c3-50150928f25b" subclassifier="d38c9fa4-0cf1-4d97-83c3-50150928f25b" superclassifier="de25670f-c0ce-458c-b840-40335e0d1de3"/>
+    <ownedRelationship xmi:type="sysml:Subclassification" declaredName="specializes" elementId="55d1a702-5354-4ecc-840c-3de37320bdb2" general="f830ebab-a646-4bf6-82b9-98403cb149ab" specific="d38c9fa4-0cf1-4d97-83c3-50150928f25b" subclassifier="d38c9fa4-0cf1-4d97-83c3-50150928f25b" superclassifier="f830ebab-a646-4bf6-82b9-98403cb149ab"/>
+  </sysml:PartDefinition>
+</xmi:XMI>
