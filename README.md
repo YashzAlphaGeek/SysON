@@ -1,6 +1,7 @@
 # SysON
 SysON project provides an open-source web-based tooling to edit SysML v2 models. It includes a set of editors (graphical, textual, form-based, etc.) enabling users to build the various parts of system models.
 
+<img width="1131" alt="image" src="https://github.com/YashzAlphaGeek/SysON/assets/18661896/5e313cce-16c3-4e92-95ac-4a1ce26e8026">
 
 ## Flashcard :
 
